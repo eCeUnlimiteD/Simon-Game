@@ -5,7 +5,7 @@ var level = 0;
 var start = false;
 var buttonColours = ["red","blue","green","yellow"];
 
-$(document).keypress(function() {
+$(document).click(function() {
   if (!start) {
     $("h1").text("Level " + level);
     nextSequence();
